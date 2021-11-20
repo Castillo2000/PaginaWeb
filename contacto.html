@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <script src="/js/main.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/css/estilos.css"/>
+  </head>
+  <body>
+      <header>
+          <h1>Ceo Sports</h1>
+      </header>
+      <nav>
+          <a href="/index.html">Inicio</a>
+          <a href="/autosVenta.html">Modelos</a>
+          <a href="/mejoresAutos.html">Mejores Autos</a>
+          <a href="/historia.html">Historia</a>
+          <a href="#">Contacto</a>
+      </nav>
+      <section>
+          <form>
+              <fieldset>
+                  <legend>Datos Persona para contactar con nosotros</legend>
+                  <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required="true"/><br/><br/>
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required="true"/> <br/><br/>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu Email" required="true"/><br/><br/>
+            <label for="edad">Edad: </label>
+            <input type="number" id="edad" name="edad" placeholder="Ingresa tu edad" required="true"/><br/><br/>
+            <label>Genero:</label><br/>
+            <input type="radio" id="femenino" name="genero" value="femenino"/>
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="masculino" name="genero" value="masculino"/>
+            <label for="masculino">Masculino</label><br/><br/>
+            <label for="comentario">comentario:</label><br/>
+            <textarea id="comentario" name="comentario" rows="2" cols="30">Escribe aquí tu comentario</textarea><br/><br/>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Restablecer"/>
+              </fieldset>
+          </form>
+      </section>
+      <footer>
+          <h2>Página hecha por David Castillo Hernández</h2>
+      </footer>
+  </body>
+</html>
